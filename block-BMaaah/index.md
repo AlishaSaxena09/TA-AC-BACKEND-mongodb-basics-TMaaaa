@@ -23,6 +23,17 @@ Write code to execute below expressions.
     - example author: {name: 'abc', email: 'abc@gmail', age: 25}
 - tags : Array of strings like ['html', 'css']
 
+//db.articles.insert( {
+title: '',
+details: '',
+author: {
+name: '',
+email: '',
+age: ''
+},
+tags: ['js', 'mongo']
+})
+
 ```js
 // An article should look like in the database
 {
@@ -39,7 +50,13 @@ Write code to execute below expressions.
 ```
 
 4. Find all the articles using `db.COLLECTION_NAME.find()`
+
+// db.articles.find()
+
 5. Find a document using \_id field.
+
+//
+
 6. 1. Find documents using title
 7. 2. Find documents using author's name field.
 8. Find document using a specific tag.
